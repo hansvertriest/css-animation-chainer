@@ -1,0 +1,15 @@
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+  
+#box {
+	background-color: green;
+
+	/* When animation is done, don't return to initial state */
+	-webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
